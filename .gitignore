@@ -1,0 +1,5 @@
+*-checkpoint*
+temp/
+local/
+private/
+.ipynb_checkpoints/
