@@ -14346,7 +14346,7 @@ age , thalach , and num. We will be using the data from the age and thalach colu
 <span class="n">default_plot_width</span> <span class="o">&lt;-</span> <span class="m">8</span>
 <span class="n">default_plot_height</span> <span class="o">&lt;-</span> <span class="m">8</span>
 
-<span class="c1"># Config - part 6, result visualizing, x_var: x-axis variable name, y_var: y-axis</span>
+<span class="c1"># Config for part 6, result visualizing, x_var: x-axis variable name, y_var: y-axis</span>
 <span class="c1"># If Kernel error, try less dots</span>
 <span class="n">enablePart6</span> <span class="o">&lt;-</span> <span class="kc">TRUE</span>
 <span class="n">dots</span> <span class="o">&lt;-</span> <span class="m">100</span> <span class="c1"># suggest 100</span>
@@ -14440,9 +14440,7 @@ age , thalach , and num. We will be using the data from the age and thalach colu
 <span class="nf">options</span><span class="p">(</span><span class="n">repr.plot.width</span> <span class="o">=</span> <span class="n">default_plot_width</span><span class="p">,</span> <span class="n">repr.plot.height</span> <span class="o">=</span> <span class="n">default_plot_height</span><span class="p">)</span>
 
 
-<span class="c1">#reading our data </span>
-<span class="c1">#Can we explain what the mutate steps are doing and why - the TA may not know, what are we doing here with the </span>
-<span class="c1">#append or as.factor?- Taarika$</span>
+<span class="c1">#reading data</span>
 
 <span class="n">heart_disease_url</span> <span class="o">=</span> <span class="s">&quot;https://archive.ics.uci.edu/ml/machine-learning-databases/heart-disease/processed.cleveland.data&quot;</span>
 <span class="n">col_names</span> <span class="o">=</span> <span class="nf">c</span><span class="p">(</span><span class="s">&quot;age&quot;</span><span class="p">,</span> <span class="s">&quot;sex&quot;</span><span class="p">,</span> <span class="s">&quot;cp&quot;</span><span class="p">,</span> <span class="s">&quot;trestbps&quot;</span><span class="p">,</span> <span class="s">&quot;chol&quot;</span><span class="p">,</span> <span class="s">&quot;fbs&quot;</span><span class="p">,</span> <span class="s">&quot;restecg&quot;</span><span class="p">,</span> <span class="s">&quot;thalach&quot;</span><span class="p">,</span> <span class="s">&quot;exang&quot;</span><span class="p">,</span> <span class="s">&quot;oldpeak&quot;</span><span class="p">,</span> <span class="s">&quot;slope&quot;</span><span class="p">,</span> <span class="s">&quot;ca&quot;</span><span class="p">,</span> <span class="s">&quot;thal&quot;</span><span class="p">,</span> <span class="s">&quot;num&quot;</span><span class="p">)</span>
